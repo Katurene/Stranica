@@ -1,0 +1,15 @@
+h1 {font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    background-color: blue;
+}
+body {
+    background-color: #c7b39b;
+
+}
+a {color: blue;}
+footer {text-align: right;
+    position:fixed;
+    top: 95%;
+}
