@@ -20,6 +20,62 @@
     <h3>Рада приветствовать вас на своем сайте.</h3>
        <!-- <p><img src="images/dzen.png" alt="Письма мастера дзен"></p>-->
     </div>
+    <form action="/signup" method="POST">
+    <p>
+        <label>обращение</label>
+        <label>
+            <input type="radio" name="title" value="mr">
+            мистер
+        </label>
+        <label>
+            <input type="radio" name="title" value="mrs">
+            миссис
+        </label>
+            </p>
+    <p>
+        <label>имя</label>
+        <input type="text" name="first_name" placeholder="введите имя">
+            </p>
+    <p>
+        <label>фамилия</label>
+        <input type="text" name="last_name" placeholder="введите фамилию">
+    </p>
+    <p>
+        <label>email</label>
+        <input type="email" name="email" placeholder="введите имейл">
+    </p>
+    <p>
+        <label>tel</label>
+        <input type="tel" name="phone" placeholder="введите телефон">
+    </p>
+    <p>
+        <label>parol</label>
+        <input type="password" name="password">
+    </p>
+    <p>
+        <label>podtverdite parol</label>
+        <input type="password" name="password_confirm">
+    </p>
+    <p>
+        <label>Country</label>
+        <select name="country" multiple> <!--можно выбрать несколько из списка-->
+            <option>belarus</option>
+            <option>belarus1</option>
+            <option>belarus2</option>
+            <option>belarus3</option>
+            <option>belarus4</option>
+        </select>
+    </p>
+    <p>
+        <label>
+        <input type="checkbox" name="terms" checked> <!--включен по умолчанию-->
+            I am agree with <a href="/terms"> terms</a>
+        </label>
+    </p>
+    <p>
+        <button>Зарегистрироваться</button>
+    </p>
+    </form>
 <footer>
     &copy; Copyright <a href="mailto:katur1984@gmail.com" target="_blank">Katurene</a>
 </footer>
